@@ -280,8 +280,8 @@
   z-index: 1;
   width: 28px;
   height: 28px;
-  mix-blend-mode: difference;
   fill: var(--back-color);
+  mix-blend-mode: difference;
 }
 
 .filter-sepia {
@@ -313,18 +313,18 @@
 }
 
 .dialog {
-  background-color: var(--back-color);
-  color: var(--accent-color);
   width: clamp(21.563rem, 1.502vw + 21.21rem, 22.563rem);
   min-height: 193px;
   padding: 31.5px 32.5px 30.5px 31.5px;
+  color: var(--accent-color);
+  background-color: var(--back-color);
 }
 
 .dialog[open] {
-  margin: auto;
   display: flex;
   flex-flow: column nowrap;
   gap: 30px;
+  margin: auto;
 }
 
 .dialog::backdrop {
@@ -334,24 +334,24 @@
 .dialog__content {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 20px;
   justify-content: center;
+  gap: 20px;
   min-height: 63px;
 }
 
 .dialog__floppy {
+  align-self: center;
   width: 39px;
   height: 39px;
-  align-self: center;
   mix-blend-mode: difference;
 }
 
 .dialog__text {
-  font-family: var(--accent-font);
-  line-height: 150%;
-  font-size: 14px;
-  text-transform: uppercase;
   grid-column: 2 / 8;
+  font-family: var(--accent-font);
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: uppercase;
 }
 
 .dialog__button {
