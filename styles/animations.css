@@ -14,10 +14,28 @@
 */
 
 @keyframes selected-theme {
-  0% {
+  from {
     transform: translateX(0px);
   }
-  100% {
+  to {
     transform: translateX(4px);
+  }
+}
+
+@keyframes resize {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.1;
+  }
+}
+
+@keyframes sparks {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

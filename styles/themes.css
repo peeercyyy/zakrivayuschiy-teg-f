@@ -25,6 +25,8 @@
       #000 4px
     ),
     linear-gradient(to bottom, #007f0c 0.01%, #004306);
+  --button-fill: var(--accent-color);
+  --sparks: #ff0000;
 }
 
 :root.theme-light {
@@ -48,6 +50,8 @@
       #d3d3d3 4px
     ),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --button-fill: #fff;
+  --sparks: #ff0000;
 }
 
 @media (prefers-color-scheme: light) {
@@ -72,6 +76,8 @@
         #d3d3d3 4px
       ),
       linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    --button-fill: #fff;
+    --sparks: #ff0000;
   }
 }
 
@@ -97,5 +103,7 @@
         #000 4px
       ),
       linear-gradient(to bottom, #007f0c 0.01%, #004306);
+    --button-fill: var(--accent-color);
+    --sparks: #ff0000;
   }
 }

@@ -20,4 +20,6 @@
       #d3d3d3 4px
     ),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --button-fill: var(--back-color);
+  --sparks: #ff0000;
 }
