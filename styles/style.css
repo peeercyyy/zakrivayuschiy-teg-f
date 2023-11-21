@@ -19,7 +19,7 @@
   flex-flow: column nowrap;
   color: var(--accent-color);
   font-family: var(--main-font, sans-serif);
-  font-weight: var(--font-normal-weight);
+  font-variation-settings: 'wght' var(--font-card-text-weight);
   font-size: 18px;
   background-color: var(--back-color);
   background-image: var(--back-img);
@@ -78,7 +78,6 @@
   justify-content: end;
   align-items: center;
   gap: 20px;
-  width: 100%;
   width: clamp(375px, 100%, 696px);
   min-height: 323px;
   margin: 102px auto 104px;
@@ -149,7 +148,6 @@
 
 .theme-menu__button:disabled::before {
   content: '▶';
-  position: absolute;
   position: absolute;
   left: -20px;
   width: 14px;
