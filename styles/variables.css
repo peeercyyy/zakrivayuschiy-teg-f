@@ -7,19 +7,12 @@
   --back-color: #fff;
   --accent-color: #000;
   --back-img: repeating-linear-gradient(
-      transparent,
-      transparent,
-      #d3d3d3 2px,
-      #d3d3d3 4px
-    ),
-    repeating-linear-gradient(
       90deg,
-      transparent,
-      transparent,
-      #d3d3d3 2px,
-      #d3d3d3 4px
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
     ),
-    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0, #e7e7e7 0.01%, #1a1a1a 100%);
   --button-fill: var(--back-color);
   --sparks: #ff0000;
 }

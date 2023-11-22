@@ -12,19 +12,12 @@
   --back-color: #000;
   --accent-color: #00cc14;
   --back-img: repeating-linear-gradient(
-      transparent,
-      transparent,
-      #000 2px,
-      #000 4px
-    ),
-    repeating-linear-gradient(
       90deg,
-      transparent,
-      transparent,
-      #000 2px,
-      #000 4px
+      #000 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
     ),
-    linear-gradient(to bottom, #007f0c 0.01%, #004306);
+    repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #007f0c 0, #004306 100%);
   --button-fill: var(--accent-color);
   --sparks: #ff0000;
 }
@@ -37,19 +30,12 @@
   --back-color: #fff;
   --accent-color: #000;
   --back-img: repeating-linear-gradient(
-      transparent,
-      transparent,
-      #d3d3d3 2px,
-      #d3d3d3 4px
-    ),
-    repeating-linear-gradient(
       90deg,
-      transparent,
-      transparent,
-      #d3d3d3 2px,
-      #d3d3d3 4px
+      #d3d3d3 0 2px,
+      rgb(0 0 0 / 0) 2px 4px
     ),
-    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0, #e7e7e7 0.01%, #1a1a1a 100%);
   --button-fill: #fff;
   --sparks: #ff0000;
 }
@@ -63,19 +49,12 @@
     --back-color: #fff;
     --accent-color: #000;
     --back-img: repeating-linear-gradient(
-        transparent,
-        transparent,
-        #d3d3d3 2px,
-        #d3d3d3 4px
-      ),
-      repeating-linear-gradient(
         90deg,
-        transparent,
-        transparent,
-        #d3d3d3 2px,
-        #d3d3d3 4px
+        #d3d3d3 0 2px,
+        rgb(0 0 0 / 0) 2px 4px
       ),
-      linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+      repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+      linear-gradient(180deg, #e7e7e7 0, #e7e7e7 0.01%, #1a1a1a 100%);
     --button-fill: #fff;
     --sparks: #ff0000;
   }
@@ -90,19 +69,12 @@
     --back-color: #000;
     --accent-color: #00cc14;
     --back-img: repeating-linear-gradient(
-        transparent,
-        transparent,
-        #000 2px,
-        #000 4px
-      ),
-      repeating-linear-gradient(
         90deg,
-        transparent,
-        transparent,
-        #000 2px,
-        #000 4px
+        #000 0 2px,
+        rgb(0 0 0 / 0) 2px 4px
       ),
-      linear-gradient(to bottom, #007f0c 0.01%, #004306);
+      repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+      linear-gradient(180deg, #007f0c 0, #004306 100%);
     --button-fill: var(--accent-color);
     --sparks: #ff0000;
   }
