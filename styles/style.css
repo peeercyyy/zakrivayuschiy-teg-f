@@ -77,7 +77,7 @@
   flex-flow: column nowrap;
   align-items: center;
   width: clamp(375px, 100%, 700px);
-  padding: clamp(7.188rem, 1.972vw + 6.725rem, 8.5rem) 0 25px;
+  padding: clamp(7.438rem, 1.596vw + 7.063rem, 8.5rem) 0 25px;
   border: 2px solid var(--accent-color);
   font-family: var(--accent-font);
   background-color: var(--back-color);
@@ -90,7 +90,7 @@
   line-height: normal;
   text-transform: uppercase;
   text-decoration: none;
-  margin-bottom: clamp(1rem, 0.188vw + 0.956rem, 1.125rem);
+  margin-bottom: 20px;
 }
 
 .header__title {
@@ -98,7 +98,7 @@
   line-height: normal;
   text-transform: uppercase;
   font-weight: var(--font-normal-weight);
-  margin-bottom: 21px;
+  margin-bottom: 25px;
 }
 
 .theme-menu {
@@ -108,7 +108,7 @@
 .theme-menu__list {
   display: flex;
   flex-flow: column nowrap;
-  gap: 5px;
+  gap: 10px;
 }
 
 .theme-menu__button {
@@ -167,7 +167,7 @@
 .main {
   display: flex;
   flex-flow: column nowrap;
-  gap: 51px;
+  gap: 50px;
   width: clamp(375px, 100%, 700px);
   margin: 0 auto;
 }
@@ -428,6 +428,7 @@
 
 .like-icon.is-liked .heart {
   animation: resize 0.3s 0.1s ease-in alternate;
+  transform-origin: center center;
 }
 
 .like-icon.is-liked .sparks {
